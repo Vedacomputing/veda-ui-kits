@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@veda-ui-kits/react-tailwind": ["libs/react/tailwind/src/index.ts"],
+      "@veda-ui-kits/react/storybook-react": [
+        "libs/react/storybook-react/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
