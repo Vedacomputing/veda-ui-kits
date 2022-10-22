@@ -5,9 +5,11 @@ export interface DefaultButtonProps {}
 
 export function DefaultButton(props: DefaultButtonProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to DefaultButton!</h1>
-    </div>
+    <a
+  href="/"
+  className={styles['container']}>
+  Get Started
+</a>
   );
 }
 
